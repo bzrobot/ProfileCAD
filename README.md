@@ -1,6 +1,10 @@
 # ProfileCAD
 2D/3D CAD/CAM Software
 
+Current Status of the project (4-1-2018)
+------------------------------
+After lots of time spent on this and a lot learned I decided to move everything into the cloud (Will also be an offline version via electron) the project was renamed to [JetCad](https://jetcad.io) and is as of right now a function CAD system complete with DXF importing and exporting.
+
 The Problem
 -----------
 There's a ton and a half of CAD CAM Solution on the web. Iv'e personally tried dozens. I'm a machinist and I use Mastercam on a daily basis to get work done. I think Mastercam V8 is great, the newer versions are better but I prefer V8. It's a fully functional solution, Draw your part, create your toolpaths, post it to your machine! Done, BAM! ready to run. Out of the dozens of Open Source solutions I have yet to find a practical one stop solution without detrimental quirks. In fact, If you prefer OSX or Linux to the horrible garbage Microsoft sells as an operating system, your work flow probably looks something like this LibreCAD=>Inkscape=>SVGtoDXF=>MakeCAMSomethingourother=>PythonGCodeUncrashFixerThing=>SomeKindOfOtherParserThing. Maybe not that bad, but its not good. So a complete solution like Master Cam costs big money and is only available on Windows.
